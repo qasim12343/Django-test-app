@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+# django-admin startproject djangoapp
+# cd djangoapp
+# python manage.py runserver
 import os
 import sys
 

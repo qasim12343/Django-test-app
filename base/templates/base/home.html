@@ -7,13 +7,11 @@
     {% for room in rooms %}
     <div>
         <h2>
-            {{room.id}}---{{room.name}}
+            <a href="/room/{{room.id}}"> --- {{room.name}}</a>
         </h2>
         {% endfor %}
     </div>
 </div>
-<a href="/room/">
-    <h1>Go to room</h1>
-</a>
+
 
 {% endblock content %}
