@@ -3,6 +3,9 @@
 # django-admin startproject djangoapp
 # cd djangoapp
 # python manage.py runserver
+# python manage.py migrate
+# python manage.py makemigrations
+# python manage.py createsuperuser
 import os
 import sys
 
